@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #007acc;
+}
+
+.description {
+    color: #333;
+    font-size: 18px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.code-block {
+    background-color: #e8f0fe;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    color: #222;
+}
