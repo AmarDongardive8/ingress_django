@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ingress-deployment
+  namespace: ingress-ns
+  labels:
+    app: ingress
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ingress
+  template:
+    metadata:
+      labels:
+        app: ingress
+    spec:
+      containers:
+      - name: ingress-pod
+        image: amardongardive/ingress_django
+        ports:
+        - containerPort: 8000
