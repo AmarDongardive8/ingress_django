@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: ingress-pod
-        image: amardongardive/ingress_django
+        image: amardongardive/ingress_django:v4
         ports:
         - containerPort: 8000
